@@ -1,0 +1,6 @@
+name: Vonage API SDK
+description: Enables usage of the Vonage API
+package: Communications
+type: module
+version: 0.1.0
+core_version_requirement: ^9.0

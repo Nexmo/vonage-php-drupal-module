@@ -1,0 +1,17 @@
+{
+    "name": "vonage/vonage_drupal",
+    "type": "drupal-module",
+    "description": "Drupal module for setting up the Vonage PHP SDK",
+    "homepage": "https://developer.nexmo.com",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Chris Tankersley",
+            "email": "chris.tankersley@vonage.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "vonage/client": "^2.3"
+    }
+}

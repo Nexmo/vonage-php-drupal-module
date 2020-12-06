@@ -1,0 +1,6 @@
+vonage_drupal.admin:
+  title: 'Vonage API Settings'
+  description: 'Configure access to using the Vonage API'
+  parent: system.admin_config_system
+  route_name: vonage_drupal.admin_config
+  weight: 100

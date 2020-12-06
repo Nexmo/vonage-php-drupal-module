@@ -1,0 +1,5 @@
+services:
+  Vonage\Client:
+    factory: ['\Drupal\vonage_drupal\VonageClientFactory', 'createVonageClient']
+    arguments: ['@service_container', '@config.factory']
+    public: true

@@ -1,0 +1,29 @@
+vonage_drupal.admin_config:
+  path: '/admin/config/vonage'
+  defaults:
+    _form: '\Drupal\vonage_drupal\Form\ConfigForm'
+    _title: 'Vonage API Configuration'
+  requirements:
+    _permission: 'access content'
+  options:
+    _admin_route: TRUE
+
+vonage_drupal.admin_sms_testing:
+  path: '/admin/config/vonage/sms-test'
+  defaults:
+    _form: '\Drupal\vonage_drupal\Form\SMSTestingForm'
+    _title: 'Vonage SMS API Testing'
+  requirements:
+    _permission: 'access content'
+  options:
+    _admin_route: TRUE
+
+vonage_drupal.admin_voice_testing:
+  path: '/admin/config/vonage/voice-test'
+  defaults:
+    _form: '\Drupal\vonage_drupal\Form\VoiceTestingForm'
+    _title: 'Vonage Voice API Testing'
+  requirements:
+    _permission: 'access content'
+  options:
+    _admin_route: TRUE

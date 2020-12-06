@@ -1,0 +1,21 @@
+vonage_drupal.admin_config:
+  title: 'Vonage API Settings'
+  description: 'Configure access to using the Vonage API'
+  parent: system.admin_config_system
+  route_name: vonage_drupal.admin_config
+  base_route: vonage_drupal.admin
+  weight: 100
+
+vonage_drupal.admin_sms_testing:
+  title: 'Vonage SMS API Testing'
+  description: 'Test your Vonage SMS API settings'
+  base_route: vonage_drupal.admin
+  route_name: vonage_drupal.admin_sms_testing
+  weight: 100
+
+vonage_drupal.admin_voice_testing:
+  title: 'Vonage API Voice Testing'
+  description: 'Test your Vonage Voice API settings'
+  base_route: vonage_drupal.admin
+  route_name: vonage_drupal.admin_voice_testing
+  weight: 100
