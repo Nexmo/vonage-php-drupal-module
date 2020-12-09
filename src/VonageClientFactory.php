@@ -12,7 +12,7 @@ use Vonage\Client\Credentials\SignatureSecret;
 
 class VonageClientFactory
 {
-    public function createVonageClient(ContainerInterface $container, ConfigFactory $configFactory)
+    public static function createVonageClient(ContainerInterface $container, ConfigFactory $configFactory)
     {
         $config = $configFactory->get('vonage_drupal.config');
 
